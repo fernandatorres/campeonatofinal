@@ -1,0 +1,48 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    
+    <h:form>
+            <p:tabMenu activeIndex="#{param.i}">
+    <p:menuitem outcome="/albitro/List" value="Arbitro"  icon="ui-icon-bookmark">
+         <f:param name="i" value="0" />
+    </p:menuitem>
+    <p:menuitem outcome="/campeonato/List" value="Campeonato" icon="ui-icon-disk">
+        <f:param name="i" value="1" />
+    </p:menuitem>
+    <p:menuitem outcome="/cancha/List" value="Cancha" icon="ui-icon-document">
+        <f:param name="i" value="2" />
+    </p:menuitem>
+    <p:menuitem outcome="/equipo/List" value="Equipo"  icon="ui-icon-calculator">
+        <f:param name="i" value="3" />
+    </p:menuitem>
+    <p:menuitem outcome="/equipoJugador/List" value="Eq. jugador" icon="ui-icon-contact">
+        <f:param name="i" value="4" />
+    </p:menuitem>
+    <p:menuitem outcome="/gol/List" value="Gol" icon="ui-icon-link">
+        <f:param name="i" value="5" />
+    </p:menuitem>
+    <p:menuitem outcome="/grupo/List" value="Grupo" icon="ui-icon-person">
+        <f:param name="i" value="6" />
+    </p:menuitem>
+    <p:menuitem outcome="/jugador/List" value="jugador" icon="fa fa-fw fa-paperclip">
+        <f:param name="i" value="7" />
+    </p:menuitem>
+    <p:menuitem outcome="/partido/List" value="Partido" icon="ui-icon-comment">
+        <f:param name="i" value="8" />
+    </p:menuitem>
+    <p:menuitem outcome="/sancion/List" value="Sancion" icon="ui-icon-document-b">
+        <f:param name="i" value="9" />
+    </p:menuitem>
+    <p:menuitem outcome="/tipoCampeonato/List" value="Tipo Campeonato" icon="ui-icon-clipboard">
+        <f:param name="i" value="10" />
+    </p:menuitem>
+    <p:menuitem outcome="/tipoSancion/List" value="Tipo Sancion" icon="ui-icon-clipboard" >
+        <f:param name="i" value="11" />
+    </p:menuitem>
+</p:tabMenu>
+                </h:form>
+</html>
+
