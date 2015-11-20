@@ -12,8 +12,7 @@
             <h:form id="JugadorCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{jugadorController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateJugadorLabel_idjugador}" for="idjugador" />
-                        <p:inputText id="idjugador" value="#{jugadorController.selected.idjugador}" title="#{bundle.CreateJugadorTitle_idjugador}" required="true" requiredMessage="#{bundle.CreateJugadorRequiredMessage_idjugador}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateJugadorLabel_nombre}" for="nombre" />
                         <p:inputText id="nombre" value="#{jugadorController.selected.nombre}" title="#{bundle.CreateJugadorTitle_nombre}" required="true" requiredMessage="#{bundle.CreateJugadorRequiredMessage_nombre}"/>
                         <p:outputLabel value="#{bundle.CreateJugadorLabel_apellido}" for="apellido" />

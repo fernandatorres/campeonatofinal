@@ -12,8 +12,7 @@
             <h:form id="TipoCampeonatoCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{tipoCampeonatoController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateTipoCampeonatoLabel_idtipoCampeonato}" for="idtipoCampeonato" />
-                        <p:inputText id="idtipoCampeonato" value="#{tipoCampeonatoController.selected.idtipoCampeonato}" title="#{bundle.CreateTipoCampeonatoTitle_idtipoCampeonato}" required="true" requiredMessage="#{bundle.CreateTipoCampeonatoRequiredMessage_idtipoCampeonato}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateTipoCampeonatoLabel_nombre}" for="nombre" />
                         <p:inputText id="nombre" value="#{tipoCampeonatoController.selected.nombre}" title="#{bundle.CreateTipoCampeonatoTitle_nombre}" required="true" requiredMessage="#{bundle.CreateTipoCampeonatoRequiredMessage_nombre}"/>
                     </p:panelGrid>

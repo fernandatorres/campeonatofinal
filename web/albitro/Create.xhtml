@@ -12,8 +12,7 @@
             <h:form id="AlbitroCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{albitroController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateAlbitroLabel_idalbitro}" for="idalbitro" />
-                        <p:inputText id="idalbitro" value="#{albitroController.selected.idalbitro}" title="#{bundle.CreateAlbitroTitle_idalbitro}" required="true" requiredMessage="#{bundle.CreateAlbitroRequiredMessage_idalbitro}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateAlbitroLabel_nombre}" for="nombre" />
                         <p:inputText id="nombre" value="#{albitroController.selected.nombre}" title="#{bundle.CreateAlbitroTitle_nombre}" required="true" requiredMessage="#{bundle.CreateAlbitroRequiredMessage_nombre}"/>
                         <p:outputLabel value="#{bundle.CreateAlbitroLabel_apellido}" for="apellido" />

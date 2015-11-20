@@ -122,7 +122,7 @@ public class EquipoJugador implements Serializable {
 
     @Override
     public String toString() {
-        return "entidades.EquipoJugador[ idEquipoJugador=" + idEquipoJugador + " ]";
+        return  idEquipoJugador + " ";
     }
     
 }

@@ -108,7 +108,7 @@ public class TipoSancion implements Serializable {
 
     @Override
     public String toString() {
-        return "entidades.TipoSancion[ idtipoSancion=" + idtipoSancion + " ]";
+        return nombre;
     }
     
 }

@@ -12,8 +12,7 @@
             <h:form id="SancionCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{sancionController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateSancionLabel_idsancion}" for="idsancion" />
-                        <p:inputText id="idsancion" value="#{sancionController.selected.idsancion}" title="#{bundle.CreateSancionTitle_idsancion}" required="true" requiredMessage="#{bundle.CreateSancionRequiredMessage_idsancion}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateSancionLabel_idEquipoJugado}" for="idEquipoJugado" />
                         <p:selectOneMenu id="idEquipoJugado" value="#{sancionController.selected.idEquipoJugado}" required="true" requiredMessage="#{bundle.EditSancionRequiredMessage_idEquipoJugado}">
                             <f:selectItems value="#{equipoJugadorController.itemsAvailableSelectOne}"

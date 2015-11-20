@@ -123,7 +123,7 @@ public class Cancha implements Serializable {
 
     @Override
     public String toString() {
-        return "entidades.Cancha[ idcancha=" + idcancha + " ]";
+        return nombre;
     }
     
 }

@@ -12,8 +12,7 @@
             <h:form id="TipoSancionCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{tipoSancionController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateTipoSancionLabel_idtipoSancion}" for="idtipoSancion" />
-                        <p:inputText id="idtipoSancion" value="#{tipoSancionController.selected.idtipoSancion}" title="#{bundle.CreateTipoSancionTitle_idtipoSancion}" required="true" requiredMessage="#{bundle.CreateTipoSancionRequiredMessage_idtipoSancion}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateTipoSancionLabel_nombre}" for="nombre" />
                         <p:inputText id="nombre" value="#{tipoSancionController.selected.nombre}" title="#{bundle.CreateTipoSancionTitle_nombre}" required="true" requiredMessage="#{bundle.CreateTipoSancionRequiredMessage_nombre}"/>
                     </p:panelGrid>

@@ -174,7 +174,7 @@ public class Albitro implements Serializable {
 
     @Override
     public String toString() {
-        return "entidades.Albitro[ idalbitro=" + idalbitro + " ]";
+        return nombre;
     }
     
 }

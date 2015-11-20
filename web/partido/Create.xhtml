@@ -12,8 +12,7 @@
             <h:form id="PartidoCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{partidoController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreatePartidoLabel_idpartido}" for="idpartido" />
-                        <p:inputText id="idpartido" value="#{partidoController.selected.idpartido}" title="#{bundle.CreatePartidoTitle_idpartido}" required="true" requiredMessage="#{bundle.CreatePartidoRequiredMessage_idpartido}"/>
+                        
                         <p:outputLabel value="#{bundle.CreatePartidoLabel_fechaHora}" for="fechaHora" />
                         <p:calendar id="fechaHora" pattern="MM/dd/yyyy HH:mm:ss" value="#{partidoController.selected.fechaHora}" title="#{bundle.EditPartidoTitle_fechaHora}" required="true" requiredMessage="#{bundle.EditPartidoRequiredMessage_fechaHora}" showOn="button"/>
                         <p:outputLabel value="#{bundle.CreatePartidoLabel_arbritroCentral}" for="arbritroCentral" />

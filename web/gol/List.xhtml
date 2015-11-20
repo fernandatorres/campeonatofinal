@@ -43,7 +43,7 @@
                             <f:facet name="header">
                                 <h:outputText value="#{bundle.ListGolTitle_idpartido}"/>
                             </f:facet>
-                            <h:outputText value="#{item.idpartido}"/>
+                            <h:outputText value="#{item.idpartido.fechaHora}"/>
                         </p:column>
                         <f:facet name="footer">
                             <p:commandButton id="createButton" icon="ui-icon-plus"   value="#{bundle.Create}" actionListener="#{golController.prepareCreate}" update=":GolCreateForm" oncomplete="PF('GolCreateDialog').show()"/>

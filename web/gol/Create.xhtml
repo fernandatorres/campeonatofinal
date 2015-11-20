@@ -12,8 +12,7 @@
             <h:form id="GolCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{golController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateGolLabel_idgol}" for="idgol" />
-                        <p:inputText id="idgol" value="#{golController.selected.idgol}" title="#{bundle.CreateGolTitle_idgol}" required="true" requiredMessage="#{bundle.CreateGolRequiredMessage_idgol}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateGolLabel_equipoJugador}" for="equipoJugador" />
                         <p:selectOneMenu id="equipoJugador" value="#{golController.selected.equipoJugador}" required="true" requiredMessage="#{bundle.EditGolRequiredMessage_equipoJugador}">
                             <f:selectItems value="#{equipoJugadorController.itemsAvailableSelectOne}"

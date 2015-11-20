@@ -12,8 +12,7 @@
             <h:form id="EquipoCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{equipoController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateEquipoLabel_idequipo}" for="idequipo" />
-                        <p:inputText id="idequipo" value="#{equipoController.selected.idequipo}" title="#{bundle.CreateEquipoTitle_idequipo}" required="true" requiredMessage="#{bundle.CreateEquipoRequiredMessage_idequipo}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateEquipoLabel_nombre}" for="nombre" />
                         <p:inputText id="nombre" value="#{equipoController.selected.nombre}" title="#{bundle.CreateEquipoTitle_nombre}" required="true" requiredMessage="#{bundle.CreateEquipoRequiredMessage_nombre}"/>
                         <p:outputLabel value="#{bundle.CreateEquipoLabel_idgrupo}" for="idgrupo" />

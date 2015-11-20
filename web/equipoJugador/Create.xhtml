@@ -12,8 +12,7 @@
             <h:form id="EquipoJugadorCreateForm">
                 <h:panelGroup id="display">
                     <p:panelGrid columns="2" rendered="#{equipoJugadorController.selected != null}">
-                        <p:outputLabel value="#{bundle.CreateEquipoJugadorLabel_idEquipoJugador}" for="idEquipoJugador" />
-                        <p:inputText id="idEquipoJugador" value="#{equipoJugadorController.selected.idEquipoJugador}" title="#{bundle.CreateEquipoJugadorTitle_idEquipoJugador}" required="true" requiredMessage="#{bundle.CreateEquipoJugadorRequiredMessage_idEquipoJugador}"/>
+                        
                         <p:outputLabel value="#{bundle.CreateEquipoJugadorLabel_idequipo}" for="idequipo" />
                         <p:selectOneMenu id="idequipo" value="#{equipoJugadorController.selected.idequipo}" required="true" requiredMessage="#{bundle.EditEquipoJugadorRequiredMessage_idequipo}">
                             <f:selectItems value="#{equipoController.itemsAvailableSelectOne}"
